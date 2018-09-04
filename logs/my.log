@@ -1,0 +1,3 @@
+2018-08-10 22:51:31,281 INFO (StartupInfoLogger.java:50)- Starting ShoppingManageApplication on DESKTOP-0UF1JIR with PID 6288 (C:\Users\ylc\Desktop\shoppingManage\target\classes started by ylc in C:\Users\ylc\Desktop\shoppingManage)
+2018-08-10 22:51:31,333 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-10 22:51:31,347 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
