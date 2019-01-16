@@ -4,6 +4,11 @@ module com.ylc.shopping.common.dal {
     requires spring.context;
     requires spring.tx;
     requires java.sql;
-    exports com.ylc.shopping.common.dal.mybatis to com.ylc.shopping.biz.shared;
-    exports com.ylc.shopping.common.dal.dataobject to com.ylc.shopping.biz.shared;
+    requires java.management;
+    requires mybatis.spring;
+    requires mybatis.generator.core;
+    requires druid;
+    requires java.naming;
+    exports com.ylc.shopping.common.dal.mybatis;
+    exports com.ylc.shopping.common.dal.dataobject;
 }

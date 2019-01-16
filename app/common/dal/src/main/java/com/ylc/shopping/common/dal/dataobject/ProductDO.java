@@ -1,4 +1,6 @@
 package com.ylc.shopping.common.dal.dataobject;
+import org.springframework.stereotype.Component;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,8 +14,7 @@ public class ProductDO implements Serializable {
 
     private static final long serialVersionUID = 1534010955044L;
 
-
-    /**
+    /** `
     * 主键
     * 
     * isNullAble:0
