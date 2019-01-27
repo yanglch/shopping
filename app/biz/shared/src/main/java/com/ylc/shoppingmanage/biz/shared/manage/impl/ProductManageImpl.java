@@ -1,6 +1,5 @@
 package com.ylc.shoppingmanage.biz.shared.manage.impl;
 
-import com.ylc.shopping.common.dal.mybatis.ProductMapper;
 import com.ylc.shoppingmanage.biz.shared.manage.ProductManage;
 import com.ylc.shoppingmanage.biz.shared.vo.ProductVo;
 import org.springframework.stereotype.Service;

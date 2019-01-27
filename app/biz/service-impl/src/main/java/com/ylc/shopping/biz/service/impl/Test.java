@@ -15,8 +15,11 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Set;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 import org.apache.commons.io.filefilter.RegexFileFilter;
 import org.apache.commons.io.filefilter.SuffixFileFilter;
 import org.springframework.core.io.Resource;
@@ -71,7 +74,6 @@ public class Test {
         Set<ModuleReference> all = of.findAll();
         of.findAll().forEach(System.err::println);
 
-        System.err.println();
 
     }
 }
