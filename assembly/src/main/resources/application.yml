@@ -1,3 +1,0 @@
-spring:
-  profiles:
-    active: common-dal,web-home,web-security
